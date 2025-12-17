@@ -263,12 +263,13 @@ max-width: 517px;
 .section6{max-width:2000px;
     width: 100%;
 justify-content: center;
-text-align: center;
-margin-top: 40px;}
+align-items: center;
+margin-top: 40px;
+padding-left: 40px;}
 /* s6-firstRow */
 .s6-firstRow{display: flex;
 gap:20px;
-flex-wrap: wrap;
+ flex-wrap: wrap; 
 align-items: center;
 text-align: center;
 padding-left: 80px;
@@ -292,18 +293,18 @@ height: 56px;
 border-radius: 50%;}
 
 /*  */
-.s6-cols {
-  max-width: 350px;          /* card width */
+/* .s6-cols {
+  max-width: 350px;         
   padding: 16px 20px;
   border-radius: 10px;
   background: #ffffff;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 
-  /* if you're using flexbox rows */
+ 
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /* s6-secondRow */
 .s6-secondRow{display: flex;
@@ -334,7 +335,8 @@ justify-content: center;}
 
 
 /* media query */
-@media(max-width:768px){.s6-cols{flex-basis: 48%;}}
+@media(max-width:1140px){.s6-cols{flex-basis: 48%;}}
+@media(max-width:768px){.s6-cols{flex-basis: 90%;}}
 @media(max-width:576px){.s6-cols{flex-basis: 98%;}
 .s6-firstRow{padding:20px 20px;}
 .section6{margin-top: 80px;}
