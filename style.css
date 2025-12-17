@@ -352,7 +352,70 @@ margin-top: 100px;}
     max-width: 2000px;
     background-color: #FF5349;
     width: 100%;
+  
 justify-content: center;
 text-align: center;
 margin-top: 40px;
+ margin-bottom: 100px;
+}
+/* lastRow */
+.lastRow{display: flex;
+padding-top: 40px;}
+
+/* lastRowLeftCol */
+.lastRowLeftCol{flex-basis: 48%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 10px;
+  
+   
+}
+/* lastRowRightCol */
+.lastRowRightCol{flex-basis: 48%;}
+/* ldiv */
+.ldiv{display: flex;
+gap:20px;
+align-items: center;}
+/* lbtnleft */
+.lbtnleft{display: flex;
+gap:20px}
+/* lsticon */
+.lsticon{width: 20px;
+height: 20px;}
+/* mdiv */
+.mdiv{display: flex;
+flex-direction: column;
+}
+/* btnp */
+.btnp{font-size: 10px;}
+/* btnheading */
+.btnheading{
+    font-size: 16px;
+    margin-top: -20px;
+}
+/* ltbtn */
+.ltbtn{padding : 5px 30px;
+border-radius: 40px;}
+/* lbtnright */
+.lbtnright{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* lastRowRightCol */
+.lastRowRightCol{display: flex;
+    gap: 16px;
+}
+/* lastimg */
+.lastoneimg{width: 300px;
+height: 220px;
+margin-top: 220px;}
+.lasttwoimg{
+    width: 300px;
+    height: 440px;
+    
 }
