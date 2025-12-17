@@ -456,6 +456,8 @@ margin-top: -60px;}
 @media(max-width:450px){
     .ldiv{display: flex;
     flex-direction: column;}
+    .lastoneimg{width: 200px;}
+    .lasttwoimg{width: 200px;}
 }
 
 
