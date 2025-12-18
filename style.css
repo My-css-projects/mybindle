@@ -323,34 +323,18 @@ justify-content: center;}
   background: none;
   box-shadow:none;
 }
- .s6-secondRow-cols button{
-  /* padding: 10px 20px;
-  border: none;
-  border-radius: 6px;
-  background:#F2F2F2;
-  color:red;
-  font-size: 16px;
-  cursor: pointer; */
-
-  
-
-  /* shadow */
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
-  
-  position: relative;
-  top:100px;
-  left: 90px; /* 👈 pushes button to bottom */
-  padding: 12px 40px;
-  border-radius: 40px;
-   box-shadow: 0 12px 20px #F2F2F2;
-   border: 2px solid white;
  
+.separateBtn{max-width: 2000px;
+    display: flex;
+align-items: center;
+justify-content: center;}
+.separateBtn button{padding:8px 30px;
+border-radius: 17px;
 
-}
-@media(max-width:1140px){.teasingbtn{margin-right: 50px;
-    margin-bottom: 20px;
-
-background-color: red;}}
+  border: none;
+  box-shadow: 
+   0 25px 60px rgba(0, 0, 0, 0.30);
+   }
 
 
 /* media query */
