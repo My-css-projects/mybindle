@@ -6,7 +6,16 @@ body{
 font-family: ITC Avant Garde Gothic Std;
  background: #F2F2F2 !important; 
  }
- 
+ /* removing horizontal scrolling  */
+ html, body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* header */
 .header-container{background-color: #FF5349;
 /* width: 1920px; */
