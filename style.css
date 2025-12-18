@@ -371,7 +371,8 @@ border-radius: 17px;
 }
 @media(max-width:576px){.s6-cols{flex-basis: 98%;}
 .s6-firstRow{padding:20px 20px;}
-.s6-secondRow{padding-left: 0;}
+.s6-secondRow{padding-left: 0;
+padding-right: 0;}
 
 
 .section6{margin-top: 80px;}
